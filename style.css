@@ -1,0 +1,119 @@
+/* Colors and fonts */
+
+body{
+	background: #F5ECE4;
+	color: #5C5C5D;
+	font-family:'Noto Sans JP', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: normal;
+}
+h1, h2, h3 {
+	color: #1D1D1F;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: normal;
+	letter-spacing: normal;
+}
+h1 {
+	font-size: 32px;
+	font-weight: bolder;
+}
+a {
+	text-decoration: none;
+	color: #2997ff;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: #0071E3;
+}
+
+/* Custom design with class */
+
+.container {
+	width: 1200px;
+	margin: 80px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+	border-radius: 6px;
+	margin: 40px 0px;
+	text-align: center;
+	padding-bottom: 65px;
+    padding-top: 15px;
+}
+.img-circle {
+	box-shadow: 0px 10px 80px rgba(0, 0, 0, 0.15);
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	margin: 20px auto;
+} 
+.btn-blue {
+	background-color: #2997ff;
+	color: white;
+	padding: 15px 25px;
+	border-radius: 6px;
+	margin-bottom: 40px;
+}
+.btn-blue:hover {
+	background-color: #0B67C2;
+	color: white;
+	transition: color 0.3s ease;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;  
+}
+.list-inline i {
+	font-size: 50px;
+	color: #2997ff;
+}
+.list-inline i:hover {
+	color: #0B67C2; 
+}
+#introduction {
+	margin-bottom: 40px;
+}
+#logo-blue {
+	color: #0175AF;
+}
+#logo-purple {
+	color: #C840B9;
+}
+#logo-green {
+	color: #3FE05C;
+}
+
+@media (max-width: 2000px) {
+	.container {
+		width: 1200px;
+	}
+}
+
+@media (max-width: 1250px) {
+	.container {
+		width: 850px;
+	}
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media(max-width: 650px) {
+	.container {
+		width: 400px;
+	}
+}
